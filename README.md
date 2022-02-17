@@ -1,13 +1,19 @@
 # Project Title
-    Just Go: A user-friendly, innovative web application that allows users explore local areas using geolocation to find places recommended by locals.
+<p align="center">
+<a href=""><img src="./images/logo.png" height="400px" margin="auto" >
+</a>
+</p>
+<p align="center">
+Just Go: A user-friendly, innovative web application that allows users explore local areas using geolocation to find places recommended by locals.
+</p>
 
 # Project Description
-     The motivation behind this project was to provide both travelers and visitors a curated, 5 stop location itinerary that allows users to explore and get to know local neighborhoods. The app's primary focus is to provide users with a manageable itinerary that can be accomplished in less than a day. When users login to the app they are presented with various routes that contain 5 stops, all within a certain radius and walking distance. Users can choose which route to take by pressing the 'Just Go' button and begin their exploration of a neighborhood. To alleviate the stress of navigating through an unknown area, the app includes three key functionalities to assist the user getting from location to location: geolocation, real-time street view, and user friendly directions . Currently, the app is specific to the Tokyo area, but with goals to expand to more locations.   
+    The motivation behind this project was to provide both travelers and visitors a curated, 5 stop location itinerary that allows users to explore and get to know local neighborhoods. The app's primary focus is to provide users with a manageable itinerary that can be accomplished in less than a day. When users login to the app they are presented with various routes that contain 5 stops, all within a certain radius and walking distance. Users can choose which route to take by pressing the 'Just Go' button and begin their exploration of a neighborhood. To alleviate the stress of navigating through an unknown area, the app includes three key functionalities to assist the user getting from location to location: geolocation, real-time street view, and user friendly directions . Currently, the app is specific to the Tokyo area, but with goals to expand to more locations.   
 
-## Requirements
+# Requirements
     Before continuing, ensure that the latest version of node is installed: v16.13.2
 
-## Getting Started 
+# Getting Started 
 ```
 - Install npm packages: npm install
 - Clone repo: git clone https://github.com/brianlee9090/CC24-seniorprojectfront
@@ -15,13 +21,12 @@
 - Start backend: npm start:dev
 ```
    
-### Test Break down:
+# Test Break down:
 
 - backend: npm run test
     The test in the backend use Jest to verify that the URLs are retrieving the correct data from the database and passed to the front end.
 
-## Tech-stack:
-
+# Tech-stack:
     This project uses the React and Next.js frameworks. Next.js provides various features to optomize production: hybrid & static server rendering, Typescript support, smart bundling, route pre-fetching, and more with no config needed. And for design, we incorporated the Chakra UI component library to build our React application. 
 ```
 - Frontend:
